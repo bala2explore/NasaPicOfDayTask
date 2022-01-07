@@ -19,12 +19,12 @@ android {
 
     buildTypes {
         debug {
-            buildConfigField "NASA_API_KEY", "BASE_URL", '"hXBdEvHYuyCgk6N8cxmlnFJ3Pazpi8iHhBM5B5LV"'
+            buildConfigField "String", "NASA_API_KEY", '"hXBdEvHYuyCgk6N8cxmlnFJ3Pazpi8iHhBM5B5LV"'
             multiDexEnabled = false
         }
 
         release {
-            buildConfigField "NASA_API_KEY", "BASE_URL", '"hXBdEvHYuyCgk6N8cxmlnFJ3Pazpi8iHhBM5B5LV"'
+            buildConfigField "String", "NASA_API_KEY", '"hXBdEvHYuyCgk6N8cxmlnFJ3Pazpi8iHhBM5B5LV"'
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
