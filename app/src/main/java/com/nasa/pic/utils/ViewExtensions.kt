@@ -1,4 +1,4 @@
-package com.nasa.pic.presentation
+package com.nasa.pic.utils
 
 import android.view.View
 import android.widget.ProgressBar
