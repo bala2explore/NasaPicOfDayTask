@@ -7,5 +7,6 @@ import javax.inject.Singleton
 class NetworkDataSource @Inject constructor(
     private val nasaWebService: NasaWebService
 ) : BaseDataSource(){
-
+    suspend fun fetchNasaApi()
+            = getResult { nasaWebService.getPictureOfTheDay() }
 }
