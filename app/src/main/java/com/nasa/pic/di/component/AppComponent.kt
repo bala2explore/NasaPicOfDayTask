@@ -5,6 +5,7 @@ import com.nasa.pic.di.module.ContextModule
 import com.nasa.pic.di.module.NasaDbModule
 import com.nasa.pic.di.module.RetrofitModule
 import com.nasa.pic.di.module.ViewModelModule
+import com.nasa.pic.presentation.NasaFragment
 
 import dagger.Component
 import javax.inject.Singleton
@@ -15,4 +16,5 @@ import javax.inject.Singleton
 )
 interface AppComponent {
     fun inject(nasaApplication: NasaApplication)
+    fun inject(nasaFragment: NasaFragment)
 }
