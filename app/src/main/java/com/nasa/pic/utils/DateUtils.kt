@@ -4,7 +4,7 @@ import java.text.ParseException
 import java.text.SimpleDateFormat
 import java.util.*
 
-object DateExtension {
+object DateUtils {
 
     fun getCurrentDate(calendar: Calendar): String {
         return "${calendar.get(Calendar.YEAR)}-" +
