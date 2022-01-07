@@ -21,6 +21,9 @@ Instructions:
 Kindly sync the project in android studio and run with emulator or device
 (Project build with : Android Studio Bumblebee | 2021.1.1 Canary 12)
 
+other notes:
+I validated the acceptance criteria 3, using app inspection tool in android studio and modified the date timestamp to previous date.
+
 
 Improvements:
 1) Introducing domain layer:
