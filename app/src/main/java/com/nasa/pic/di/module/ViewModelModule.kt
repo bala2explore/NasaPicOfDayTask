@@ -17,5 +17,5 @@ abstract class ViewModelModule {
     @Binds
     @IntoMap
     @ViewModelKey(NasaViewModel::class)
-    abstract fun nasaApodListViewModel(viewModelNasa: NasaViewModel): ViewModel
+    abstract fun nasaListViewModel(nasaViewModel: NasaViewModel): ViewModel
 }
